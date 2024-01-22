@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 5904987201165084408}
   - component: {fileID: 8437281917640278359}
   m_Layer: 7
-  m_Name: EnemyRed1
+  m_Name: EnemyBlue1S
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111,7 +111,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 54bd04ad45d4df04d8b693d91a2888be, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 253caae8e00c33f449390989dce5ef57, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fded07a02e2d3ca44afcfd21b280f311, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePf: {fileID: 3009717645319020313, guid: 60acc71c2310e8545b1550f1062c6914, type: 3}
+  projectilePf: {fileID: 3009717645319020313, guid: 3a2107a7fa41e5949aced2b31ed49f66, type: 3}
   projectileFirePoint: {fileID: 5904987200180204058}
   minFireRate: 2
   maxFireRate: 3
@@ -222,10 +222,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4194cc7512d7a3d4e8d8bba245836e93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 1
-  shield: 0
+  hp: 3
+  shield: 2
   shieldPoint: {fileID: 5904987201911885062}
-  explosionPrefab: {fileID: 7598652169883087916, guid: 41cb26937bdd0444d808cc3eb469c66a, type: 3}
+  explosionPrefab: {fileID: 7598652169883087916, guid: e3078a0c6b7b24541ad798dd89d99316, type: 3}
   onDeath:
     m_PersistentCalls:
       m_Calls:

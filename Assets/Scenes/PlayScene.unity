@@ -917,8 +917,8 @@ RectTransform:
   m_GameObject: {fileID: 413719589}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.74999994, y: 0.74999994, z: 0.74999994}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 255850981}
   - {fileID: 535069508}
@@ -930,8 +930,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 245, y: -48}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 180, y: -30}
+  m_SizeDelta: {x: 480, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &413719591
 MonoBehaviour:
@@ -1504,8 +1504,8 @@ RectTransform:
   m_GameObject: {fileID: 602028291}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.74999994, y: 0.74999994, z: 0.74999994}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 499586128}
   - {fileID: 1571304495}
@@ -1513,8 +1513,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -404.99988, y: -50}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -310, y: -30}
+  m_SizeDelta: {x: 170, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &602028294
 MonoBehaviour:
@@ -1836,12 +1836,18 @@ MonoBehaviour:
   enemyList:
   - enemyPrefab: {fileID: 136071646888440224, guid: 996fe79e49f055545abf2e4265c8ff79, type: 3}
     cost: 2
+  - enemyPrefab: {fileID: 136071646888440224, guid: c7b6a4826c7a4264a96c9fb84268142f, type: 3}
+    cost: 4
+  - enemyPrefab: {fileID: 136071646888440224, guid: 984e05266516b154a97c5e76c387dc35, type: 3}
+    cost: 6
+  - enemyPrefab: {fileID: 136071646888440224, guid: 705bc13289c13c04e9dbbca310c0be09, type: 3}
+    cost: 8
   toSpawnList: []
   waveCount: 1
   waveMaxActivePerRow: 4
   waveActiveEnemy: 0
-  spawnInterval: 3
-  waveInterval: 3
+  spawnInterval: 4
+  waveInterval: 4
   rows:
   - {fileID: 582938594}
   - {fileID: 1025813115}
@@ -2083,8 +2089,8 @@ RectTransform:
   m_GameObject: {fileID: 1100471991}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.74999994, y: 0.74999994, z: 0.74999994}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 56042052}
   - {fileID: 766756192}
@@ -2092,8 +2098,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -85, y: -50}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -65, y: -30}
+  m_SizeDelta: {x: 170, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1100471993
 MonoBehaviour:
@@ -2534,8 +2540,8 @@ RectTransform:
   m_GameObject: {fileID: 1587799389}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.74999994, y: 0.74999994, z: 0.74999994}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 262991895}
   - {fileID: 866528616}
@@ -2543,8 +2549,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -264.99988, y: -50}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -200, y: -30}
+  m_SizeDelta: {x: 170, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1587799391
 MonoBehaviour:
