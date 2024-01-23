@@ -38,6 +38,7 @@ public class EnemyAttackController : MonoBehaviour
 
     private void Shoot()
     {
+        SoundManager.Instance.PlaySound(SoundEffect.EnemyShoot);
         Instantiate(projectilePf, projectileFirePoint.position, Quaternion.identity);
     }
 

@@ -15,6 +15,7 @@ public class ShieldPickup : MonoBehaviour
     {
         if (collision.CompareTag("Player") && collision.GetComponent<HealthStat>())
         {
+            SoundManager.Instance.PlaySound(SoundEffect.ItemPickup);
             collision.GetComponent<HealthStat>().GainShield();
             Destroy(gameObject);
         }

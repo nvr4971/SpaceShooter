@@ -15,6 +15,7 @@ public class PowerPickup : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            SoundManager.Instance.PlaySound(SoundEffect.ItemPickup);
             PlayerGlobalStats.Instance.AddPower(1);
             Destroy(gameObject);
         }

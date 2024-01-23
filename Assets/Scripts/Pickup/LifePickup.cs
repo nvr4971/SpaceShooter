@@ -20,6 +20,7 @@ public class LifePickup : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            SoundManager.Instance.PlaySound(SoundEffect.ItemPickup);
             PlayerGlobalStats.Instance.AddLife(1);
             Destroy(gameObject);
         }

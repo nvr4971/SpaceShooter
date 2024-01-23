@@ -49,6 +49,7 @@ public class HealthStat : MonoBehaviour
         }
         else
         {
+            SoundManager.Instance.PlaySound(SoundEffect.ShieldLose);
             SetShield(-1);
         }
     }
@@ -57,6 +58,7 @@ public class HealthStat : MonoBehaviour
     {
         if (shield < 3)
         {
+            SoundManager.Instance.PlaySound(SoundEffect.ShieldGain);
             SetShield(1);
         }
         else

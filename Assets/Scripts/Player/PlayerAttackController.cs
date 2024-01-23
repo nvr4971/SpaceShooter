@@ -68,6 +68,7 @@ public class PlayerAttackController : MonoBehaviour
 
     private void Shoot()
     {
+        SoundManager.Instance.PlaySound(SoundEffect.PlayerShoot);
         Instantiate(projectilePf, projectileFirePoint.position, Quaternion.identity);
     }
 

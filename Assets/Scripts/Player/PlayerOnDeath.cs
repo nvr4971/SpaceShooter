@@ -6,6 +6,7 @@ public class PlayerOnDeath : MonoBehaviour
 {
     public void TriggerPlayerDeathCallBack()
     {
+        SoundManager.Instance.PlaySound(SoundEffect.PlayerDeath);
         PlayerManager.Instance.RespawnHandler();
     }
 }
