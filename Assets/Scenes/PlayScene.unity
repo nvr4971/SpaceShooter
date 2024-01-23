@@ -1030,6 +1030,8 @@ MonoBehaviour:
     audioClip: {fileID: 8300000, guid: 1f7efdfcdc26ba94792c7ea8a0170070, type: 3}
   - soundEffect: 5
     audioClip: {fileID: 8300000, guid: 32a90a8afd9fb3345b935b10cb9b0189, type: 3}
+  - soundEffect: 6
+    audioClip: {fileID: 8300000, guid: 9242966d4c6cda74fb4e7332fff2673b, type: 3}
   audioSource: {fileID: 399585338}
 --- !u!4 &399585340
 Transform:
@@ -2503,7 +2505,7 @@ MonoBehaviour:
   - pickupPf: {fileID: 3406161205274387404, guid: 7c5d0edabb96a4246b03f1ea4338a7ca, type: 3}
     dropChance: 0.2
   - pickupPf: {fileID: 4276555525300959542, guid: 4e21d4131129f09409870a9139c4d26f, type: 3}
-    dropChance: 0.01
+    dropChance: 0.3
 --- !u!4 &1371623808
 Transform:
   m_ObjectHideFlags: 0

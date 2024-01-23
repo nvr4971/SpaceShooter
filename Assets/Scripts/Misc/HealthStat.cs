@@ -45,6 +45,7 @@ public class HealthStat : MonoBehaviour
     {
         if (shield == 0)
         {
+            SoundManager.Instance.PlaySound(SoundEffect.DamageTaken);
             hp -= amount;
         }
         else

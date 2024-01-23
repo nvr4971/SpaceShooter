@@ -9,7 +9,8 @@ public enum SoundEffect
     PlayerDeath,
     ShieldGain,
     ShieldLose,
-    ItemPickup
+    ItemPickup,
+    DamageTaken
 }
 
 public class SoundManager : MonoBehaviour
